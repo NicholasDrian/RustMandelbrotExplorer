@@ -14,7 +14,12 @@
 </head>
 
 <body id="wasm-example">
-  <script type="module" src="./pkg/mandelbrot_explorer.js"> </script>
+  <script type="module">
+    import init from "./pkg/pong.js";
+    init().then(() => {
+      console.log("WASM Loaded");
+    });
+  </script>
 </body>
 
 </html>

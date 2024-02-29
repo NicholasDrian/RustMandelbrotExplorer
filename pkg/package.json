@@ -1,0 +1,17 @@
+{
+  "name": "mandelbrot_explorer",
+  "collaborators": [
+    "Ben Hansen <https://github.com/sotrh>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "mandelbrot_explorer_bg.wasm",
+    "mandelbrot_explorer.js",
+    "mandelbrot_explorer.d.ts"
+  ],
+  "module": "mandelbrot_explorer.js",
+  "types": "mandelbrot_explorer.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

@@ -1,5 +1,5 @@
 [package]
-name = "tutorial1-window"
+name = "mandelbrot_explorer"
 version = "0.1.0"
 authors = ["Ben Hansen <https://github.com/sotrh>"]
 edition = "2018"
@@ -8,7 +8,7 @@ edition = "2018"
 crate-type = ["cdylib", "rlib"]
 
 [[bin]]
-name = "tutorial1-window"
+name = "mandelbrot_explorer"
 path = "src/main.rs"
 
 [dependencies]

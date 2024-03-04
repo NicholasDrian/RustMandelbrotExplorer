@@ -5,13 +5,15 @@
   ],
   "version": "0.1.0",
   "files": [
-    "mandelbrot_explorer_bg.wasm",
-    "mandelbrot_explorer.js",
-    "mandelbrot_explorer.d.ts"
+    "index_bg.wasm",
+    "index.js",
+    "index_bg.js",
+    "index.d.ts"
   ],
-  "module": "mandelbrot_explorer.js",
-  "types": "mandelbrot_explorer.d.ts",
+  "module": "index.js",
+  "types": "index.d.ts",
   "sideEffects": [
+    "./index.js",
     "./snippets/*"
   ]
 }

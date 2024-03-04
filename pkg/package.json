@@ -7,13 +7,11 @@
   "files": [
     "mandelbrot_explorer_bg.wasm",
     "mandelbrot_explorer.js",
-    "mandelbrot_explorer_bg.js",
     "mandelbrot_explorer.d.ts"
   ],
   "module": "mandelbrot_explorer.js",
   "types": "mandelbrot_explorer.d.ts",
   "sideEffects": [
-    "./mandelbrot_explorer.js",
     "./snippets/*"
   ]
 }

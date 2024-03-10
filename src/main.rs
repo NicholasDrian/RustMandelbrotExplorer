@@ -1,5 +1,4 @@
 use mandelbrot_explorer::run;
-
 use wasm_bindgen::prelude::*;
 use web_sys::console;
 

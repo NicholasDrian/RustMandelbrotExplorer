@@ -1,11 +1,12 @@
 use mandelbrot_explorer::run;
-use wasm_bindgen::prelude::*;
-use web_sys::console;
 
 fn main() {
     println!("Hello, world!");
     pollster::block_on(run());
 }
+
+use wasm_bindgen::prelude::*;
+use web_sys::console;
 
 #[wasm_bindgen(start)]
 pub fn main_js() -> Result<(), JsValue> {
